@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Song Title"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/txtSong"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Artist"
+                android:textSize="18dp"
+                android:id="@+id/txtArtist"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical">
+
+        <ImageView
+            android:id="@+id/rate"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_star_black_24dp"
+            />
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_add_black_24dp"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/toolbar_left_imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_toEndOf="@+id/toolbar_left_imageView"
+            android:layout_toRightOf="@+id/toolbar_left_imageView"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/toolbar_right_imgView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:tint="@color/white" />
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            android:text="SKIP"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>

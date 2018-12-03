@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "314554953720",
+    "firebase_url": "https://finalprojectceg6440kultinov.firebaseio.com",
+    "project_id": "finalprojectceg6440kultinov",
+    "storage_bucket": "finalprojectceg6440kultinov.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314554953720:android:3525d887af3cdfcc",
+        "android_client_info": {
+          "package_name": "kultinov.kirill.finalprojectceg6440kultinov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314554953720-7sl9msnpt68k3o3mk5iefl0l1hec5fh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kultinov.kirill.finalprojectceg6440kultinov",
+            "certificate_hash": "39f7693d5a473199da6752e430ecacfffb50522f"
+          }
+        },
+        {
+          "client_id": "314554953720-clf5dluao1id1vu1l8qqlidqc37lql05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrp0lTCNOFl_eE2S4m4zPLVe6OoCN5VeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314554953720-clf5dluao1id1vu1l8qqlidqc37lql05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
